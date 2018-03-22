@@ -1,0 +1,257 @@
+body
+{
+
+	margin: 0;
+	padding: 0;
+
+}
+.kafelek1 
+{
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 37%;
+	left: 20%;
+	
+}
+
+.kafelek2 
+{
+	
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 58.8%;
+	left: 20%;
+}
+
+.kafelek3
+{
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 100%;
+	left: 20%;
+	
+}
+
+.kafelek4 
+{
+	
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 121.8%;
+	left: 20%;
+}
+
+.kafelek5
+{
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 165%;
+	left: 20%;
+	
+}
+
+.kafelek6
+{
+	
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 186.8%;
+	left: 20%;
+}
+
+ul {
+	position: absolute;
+		display: flex;
+		justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+		border-bottom: 10px double black;
+		border-top: 10px double black;
+		
+		top: 46.8%;
+		width: 100%;
+		
+}
+
+li {
+    float: left;
+}
+
+li a.active {
+	
+	background-color: #efefef;
+	color: black;
+	font-style:  
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		font-size: 60px;
+		
+		transition: background-color .3s ease-in-out;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#k1 {
+	
+	border-top: 15px solid black; 
+	border-left: 15px solid black;
+	
+}
+
+#k2 {
+	
+	border-top: 15px solid black; 
+	border-right: 15px solid black;
+	
+}
+
+#k4 {
+	
+	border-bottom: 15px solid black; 
+	border-right: 15px solid black;
+	
+}
+
+#k3 {
+	
+	border-bottom: 15px solid black; 
+	border-left: 15px solid black;
+	
+}
+
+#kaf {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	
+	width: 100%;
+	height: 500px;
+	
+	background: linear-gradient(to bottom right, white, black);
+	
+	transition: filter 1s ease-in-out;
+	
+}
+
+#title {
+	
+	position: absolute;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	
+	border: 20px dashed black;
+	padding: 10px 10px;
+
+}
+
+#kaf:hover {
+	
+	filter: invert(100%);
+	
+}
+
+#k1:hover {
+	
+	filter: invert(100%);
+	
+}
+
+#k2:hover {
+	
+	filter: invert(100%);
+	
+}
+
+#k3:hover {
+	
+	filter: invert(100%);
+	
+}
+
+#k4:hover {
+	
+	filter: invert(100%);
+	
+}
+
+#k1 {
+
+transition: filter 2s ease-in-out;
+
+}
+
+#k2 {
+
+transition: filter 2s ease-in-out;
+
+}
+
+#k3 {
+
+transition: filter 2s ease-in-out;
+
+}
+
+#k4 {
+
+transition: filter 2s ease-in-out;
+
+}
+
+#box1{
+	height: 180vh;
+	width: 100%;
+	background-image: url(box1.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	}
+	#box2{
+	height: 120vh;
+	width: 100%;
+	background-image: url(box2.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	}
+	#box3{
+	height: 120vh;
+	width: 100%;
+	background-image: url(box3.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	}
